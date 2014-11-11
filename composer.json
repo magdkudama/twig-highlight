@@ -1,0 +1,25 @@
+{
+    "name": "magdkudama/twig-highlight",
+    "description": "Twig extension to highlight content",
+    "keywords": ["highlight", "twig", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magd Kudama",
+            "email": "magdkudama@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "~1.12"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "kzykhys/pygments": "dev-master"
+    },
+    "suggest": {
+        "kzykhys/pygments": "Pygments wrapper for PHP"
+    },
+    "autoload": {
+        "psr-4": { "MagdKudama\\Highlight\\": "src/MagdKudama/Highlight" }
+    }
+}
