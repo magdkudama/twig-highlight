@@ -60,6 +60,12 @@ The language (php in this case) is required, but the parameters (```with {}``` a
 
 If you don't want to use Pygments, you can create your own engine by implementing the ```MagdKudama\Highlight\Engine``` interface.
 
+TODO
+----
+
+* Support... Maybe Geshi?
+* Default content when there's an error... Maybe!
+
 License
 -------
 
