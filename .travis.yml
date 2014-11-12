@@ -6,3 +6,6 @@ php:
 
 before_script:
   - COMPOSER_ROOT_VERSION=dev-master composer install --dev
+
+script: phpunit -c tests/
+
