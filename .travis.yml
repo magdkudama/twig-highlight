@@ -8,7 +8,7 @@ before_script:
   - COMPOSER_ROOT_VERSION=dev-master composer install --dev
 
 before_install:
-  - pip install pygments
+  - sudo pip install pygments
 
 script: phpunit -c tests/
 
