@@ -1,6 +1,8 @@
 Twig highlight extension
 ========================
 
+[![Build Status](https://travis-ci.org/magdkudama/twig-highlight.svg?branch=master)](https://travis-ci.org/magdkudama/twig-highlight)
+
 Simple extension to highlight code (it could be done using a filter or a function, of course... but why not with a custom tag? :D).
 
 Installing
