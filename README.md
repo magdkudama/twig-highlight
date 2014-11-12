@@ -42,6 +42,18 @@ Usage
         echo $i;
     }
 {% endhighlight %}
+
+{% highlight 'php' with { theme: 'vim' } %}
+    ... code here ...
+{% endhighlight %}
+
+{% highlight 'php' %}
+    ... code here ...
+{% endhighlight %}
+
+{% highlight 'php' ignore_errors %}
+    ... code here ...
+{% endhighlight %}
 ```
 
 The language (php in this case) is required, but the parameters (```with {}``` and ```ignore_errors``` are optional).
